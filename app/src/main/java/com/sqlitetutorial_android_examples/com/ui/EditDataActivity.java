@@ -1,4 +1,4 @@
-package com.sqlitetutorial_android_examples.com;
+package com.sqlitetutorial_android_examples.com.ui;
 import android.app.Activity;
 import android.content.Context;
 import android.database.Cursor;
@@ -10,6 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.sqlitetutorial_android_examples.com.R;
+import com.sqlitetutorial_android_examples.com.SQLiteHelper;
 
 public class EditDataActivity extends Activity {
 

@@ -1,10 +1,14 @@
-package com.sqlitetutorial_android_examples.com;
+package com.sqlitetutorial_android_examples.com.ui;
 import java.util.ArrayList;
 import android.app.Activity;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.widget.ListView;
+
+import com.sqlitetutorial_android_examples.com.R;
+import com.sqlitetutorial_android_examples.com.SQLiteHelper;
+import com.sqlitetutorial_android_examples.com.SQLiteListAdapter;
 
 public class ListViewActivity extends Activity {
 	

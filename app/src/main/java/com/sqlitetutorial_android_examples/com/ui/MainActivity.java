@@ -1,4 +1,4 @@
-package com.sqlitetutorial_android_examples.com;
+package com.sqlitetutorial_android_examples.com.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.sqlitetutorial_android_examples.com.R;
 
 public class MainActivity extends Activity {
 
